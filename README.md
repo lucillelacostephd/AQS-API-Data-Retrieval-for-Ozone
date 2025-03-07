@@ -1,5 +1,5 @@
-# AQS API Data Retrieval for Ozone and VOC Analysis
-This repository contains Python scripts for retrieving air quality data from the EPA's Air Quality System (AQS) API. The scripts automate the process of requesting and extracting ozone and volatile organic compounds (VOCs) data for specified locations and time periods.
+# AQS API Data Retrieval for Ozone 
+This repository contains Python scripts for retrieving air quality data from the EPA's Air Quality System (AQS) API. The scripts automate the process of requesting and extracting ozone data for specified locations and time periods.
 
 # Features
 Query hourly and daily ozone data from AQS.

@@ -20,7 +20,7 @@ logging.basicConfig(level=logging.INFO,
 
 # EPA AQS API Details
 EPA_AQS_URL = "https://aqs.epa.gov/data/api/sampleData/bySite"
-EPA_AQS_KEY = "goldfox28"  # Replace with your actual API key
+EPA_AQS_KEY = "API_KEY"  # Replace with your actual API key
 
 # Define sites with their EPA Site IDs
 sites = {
@@ -41,8 +41,8 @@ def fetch_epa_hourly_ozone_data(state, county, site, start_year=2000, end_year=2
     
     for year in range(start_year, end_year + 1):
         params = {
-            "email": "llacoste@albany.edu",  
-            "key": "goldfox28",
+            "email": "INSERT_YOUR_EMAIL",  
+            "key": "API_KEY",
             "param": "44201",  # Ozone parameter code
             "duration": "1",  # 1-hour data
             "bdate": f"{year}0101",  
